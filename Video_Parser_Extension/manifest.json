@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Video Parser Extension",
+  "name": "影视解析辅助工具",
   "version": "1.0",
   "description": "解析影视链接并跳转到解析后的URL",
   "permissions": ["storage", "activeTab", "scripting"],
@@ -12,8 +12,13 @@
   },
   "options_page": "options.html",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   }
 }
