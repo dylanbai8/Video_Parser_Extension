@@ -15,15 +15,6 @@ document.getElementById("addParserButton").addEventListener("click", () => {
   }
 });
 
-document.getElementById("saveParsersButton").addEventListener("click", () => {
-  chrome.storage.sync.get("parsers", (data) => {
-    const parsers = data.parsers || [];
-    chrome.storage.sync.set({ parsers: parsers }, () => {
-      alert("解析接口已保存！");
-    });
-  });
-});
-
 function removeParser(index) {
   chrome.storage.sync.get("parsers", (data) => {
     const parsers = data.parsers || [];
